@@ -43,7 +43,7 @@
 }
 .search-icon{
     background-position: right;
-    background-image: url(./images/search.svg);
+    background-image: url(./search.svg);
     background-repeat: no-repeat;
     display: flex;
 }
@@ -81,7 +81,7 @@
 .s1-container{
 
     height: 800px;
-    background-image: url(./images/s1-image2.webp);
+    background-image: url(./s1-image2.webp);
     background-size: contain; /* Fit the image within the div */
     background-position: center;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@
 }
 .slide{
     height: 800px;
-    background-image: url(./images/slide-2-cover.jpeg);
+    background-image: url(./slide-2-cover.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
