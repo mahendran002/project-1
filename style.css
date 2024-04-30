@@ -1,0 +1,236 @@
+
+.menu-bar{
+    background-color: #153448;
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.three-lines::before{
+    content: "\2630";
+    font-size: 33px;
+    padding-left: 12px;
+    color: white;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media{
+    padding: 5px;
+    margin: 2px;
+}
+#Follow{
+    margin-right: 33px;
+    margin-top: 2px;
+    font-size: 2rem;
+    color: white;
+}
+.container{
+    background-color: #DFD0B8;
+    display: flex;
+}
+.logo{
+    width: 30%;
+    background-color: #DFD0B8;
+}
+#log{
+    height: 60px;
+    padding: 7px;
+    margin-left: 9px;
+}
+.search-icon{
+    background-position: right;
+    background-image: url(./images/search.svg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.search-bar{
+    width: 40%;
+    background-color: #DFD0B8;
+}
+.bar{
+    width: 98%;
+    height: 27px;
+    border-radius: 12px;
+    margin-top: 18px;
+}
+.sign-in{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    height: 78px;
+    /* margin: 10px; */
+    background-color: #DFD0B8;
+}
+#sign-in{
+    width: 147px;
+    border: none;
+    background-color: #3C5B6F;
+    color: white;
+    margin-top: 10px;
+    margin-right: 21px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 27px;
+    font-style: italic;
+    font-family: fangsong;
+}
+.s1-container{
+
+    height: 800px;
+    background-image: url(./images/s1-image2.webp);
+    background-size: contain; /* Fit the image within the div */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    align-content: center;
+}
+.title{
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    text-shadow: -20px 13px 0px black;
+}
+/*.full-rectangle{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+/*.full-rectangle1 {
+    width: 200px;
+    height: 300px;
+    background-color: brown;
+    margin: 20px;
+    border: 3px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+} */
+#heading{
+    color: rgb(247, 245, 245);
+    font-size: 3rem;
+    font-style: italic;
+    margin-left: 23px;
+    /* margin: 0px; */
+    padding-top: 50px;
+}
+.slide{
+    height: 800px;
+    background-image: url(./images/slide-2-cover.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -150px;
+}
+.About{
+    display: flex;
+}
+   
+.full-rectangle {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    perspective: 1000px; /* Set perspective for 3D effect */
+    position: relative;
+  }
+  
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.6s ease; /* Add transition effect */
+    backface-visibility: hidden; /* Hide the backface of the card */
+}
+  
+.front{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d; /* Preserve 3D transformations */
+    z-index: 2; /* Ensure the front face is above the back face */
+}
+  
+.back{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg) translateY(0%); /* Move the back card up by 100% of its height*/ 
+    transform-style: preserve-3d;
+    z-index: 3;
+    position: absolute; /* Add position absolute */
+    top: 0; /* Align the back card to the top of the container */
+}
+  
+  
+.full-rectangle:hover .front {
+    transform: rotateY(180deg); /* Flip the card when hovered */
+}
+  
+.full-rectangle:hover .back {
+    transform: rotateY(0); /* Show the back of the card when hovered */
+}
+.hole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    padding: 11px;
+}
+.next-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFD0B8;
+    margin-top: -29px;
+    padding: 12px;
+}
+.full-width{
+    display: flex;
+}
+.Next-box{
+    padding: 0px 8px;
+}
+.list{
+    display: flex;
+    margin: 70px 90px;
+}
+.Policies{
+    list-style: none;
+    line-height: 40px;
+    margin-left: -15px;
+}
+
+
+.box{
+    padding: 15px;
+}
+.box-heading{
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#head{
+    padding: 20px;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 900;
+}
+.About{
+    display: flex;
+    background-color: #153448;
+    color: white;
+}
+footer{
+    background-color: #DFD0B8;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    padding: 6px;
+}
